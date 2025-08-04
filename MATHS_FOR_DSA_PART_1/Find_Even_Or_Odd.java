@@ -21,3 +21,7 @@ public class Find_Even_Or_Odd {
         return num % 2 == 0;
     }
 }
+
+
+// Time Complexity: O(1), single arithmetic operation
+// Space Complexity: O(1), uses constant extra space

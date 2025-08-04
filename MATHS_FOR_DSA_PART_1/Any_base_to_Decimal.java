@@ -47,3 +47,7 @@ public class Any_base_to_Decimal {
         return res;
     }
 }
+
+
+// Time Complexity: O(d), where d is the number of digits in 'num'
+// Space Complexity: O(1), uses constant extra space
