@@ -48,3 +48,5 @@ class Decimal_to_any_base
         return res;
     }
 }
+// Time Complexity: O(log_base(num)), since we divide num by base in each iteration
+// Space Complexity: O(1), uses constant extra space
