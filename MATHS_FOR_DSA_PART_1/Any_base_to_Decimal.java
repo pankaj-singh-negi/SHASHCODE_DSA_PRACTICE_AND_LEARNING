@@ -23,6 +23,7 @@ public class Any_base_to_Decimal {
 
         // Display the result
         System.out.println("The decimal equivalent of " + num + " in base " + base + " is: " + anyBaseToDecimal(num, base));
+        sc.close();
     }
 
     /**

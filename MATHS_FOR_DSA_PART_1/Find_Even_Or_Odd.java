@@ -7,7 +7,7 @@ public class Find_Even_Or_Odd {
         // Prompt user to enter a number
         System.out.print("Enter a number to check if it is even or odd: ");
         int num = sc.nextInt();
-
+         sc.close();
         // Check if the number is even or odd
         if (isEven(num)) {
             System.out.println(num + " is an even number.");

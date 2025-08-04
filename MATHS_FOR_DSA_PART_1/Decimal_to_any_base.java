@@ -16,6 +16,8 @@ class Decimal_to_any_base
         System.out.print("Enter the base to convert the number into (2-10): ");
         int base = sc.nextInt();
 
+         sc.close();
+
         // Validate base input
         if (base < 2 || base > 10) {
             System.out.println("Invalid base! Please enter a base between 2 and 10.");
@@ -24,6 +26,7 @@ class Decimal_to_any_base
 
         // Display the result
         System.out.println("The equivalent of " + num + " in base " + base + " is: " + decimalToAnyBase(num, base));
+       
     }
 
     /**
