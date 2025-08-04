@@ -14,6 +14,7 @@ public class Any_base_to_Decimal {
         // Prompt user to enter the base of the number
         System.out.print("Enter the base of the number (2-10): ");
         int base = sc.nextInt();
+        sc.close();
 
         // Validate base input
         if (base < 2 || base > 10) {
