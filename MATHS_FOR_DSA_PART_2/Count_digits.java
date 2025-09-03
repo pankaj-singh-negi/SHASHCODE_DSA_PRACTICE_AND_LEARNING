@@ -1,4 +1,4 @@
-package MATHS_FOR_DSA_PART_2;
+
 
 import java.util.Scanner;
 
